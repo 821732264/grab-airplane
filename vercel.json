@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/monitor.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/monitor",
+      "dest": "api/monitor.py"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/monitor",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
