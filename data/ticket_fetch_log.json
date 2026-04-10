@@ -1,88 +1,5 @@
 [
   {
-    "fetch_time": "2026-04-09 20:14:47",
-    "route": "广州->杭州",
-    "date": "2026-04-29",
-    "total_flights": 4,
-    "prices": [
-      {
-        "flight": "HU7161",
-        "price": 820
-      },
-      {
-        "flight": "HU7261",
-        "price": 970
-      },
-      {
-        "flight": "HU7361",
-        "price": 1020
-      },
-      {
-        "flight": "JD5269",
-        "price": 930
-      }
-    ],
-    "matched_count": 0
-  },
-  {
-    "fetch_time": "2026-04-09 20:14:48",
-    "route": "杭州->广州",
-    "date": "2026-05-07",
-    "total_flights": 4,
-    "prices": [
-      {
-        "flight": "HU7262",
-        "price": 199
-      },
-      {
-        "flight": "HU7162",
-        "price": 710
-      },
-      {
-        "flight": "HU7362",
-        "price": 199
-      },
-      {
-        "flight": "JD5270",
-        "price": 199
-      }
-    ],
-    "matched_count": 3
-  },
-  {
-    "fetch_time": "2026-04-09 23:12:28",
-    "route": "深圳->杭州",
-    "date": "2026-04-29",
-    "total_flights": 6,
-    "prices": [
-      {
-        "flight": "HU7393",
-        "price": 199
-      },
-      {
-        "flight": "HU7395",
-        "price": 1200
-      },
-      {
-        "flight": "HU7397",
-        "price": 980
-      },
-      {
-        "flight": "JD5114",
-        "price": 890
-      },
-      {
-        "flight": "JD5290",
-        "price": 861
-      },
-      {
-        "flight": "Y87531",
-        "price": 1060
-      }
-    ],
-    "matched_count": 1
-  },
-  {
     "fetch_time": "2026-04-09 23:12:28",
     "route": "广州->杭州",
     "date": "2026-04-29",
@@ -28721,6 +28638,117 @@
   },
   {
     "fetch_time": "2026-04-10 17:41:28",
+    "route": "杭州->广州",
+    "date": "2026-05-07",
+    "total_flights": 4,
+    "prices": [
+      {
+        "flight": "JD5270",
+        "min_price": 199,
+        "member_price": null,
+        "plus_price": 199
+      },
+      {
+        "flight": "HU7262",
+        "min_price": 199,
+        "member_price": null,
+        "plus_price": 199
+      },
+      {
+        "flight": "HU7362",
+        "min_price": 199,
+        "member_price": null,
+        "plus_price": 199
+      },
+      {
+        "flight": "HU7162",
+        "min_price": 640,
+        "member_price": null,
+        "plus_price": null
+      }
+    ],
+    "matched_count": 3
+  },
+  {
+    "fetch_time": "2026-04-10 18:00:02",
+    "route": "深圳->杭州",
+    "date": "2026-04-29",
+    "total_flights": 6,
+    "prices": [
+      {
+        "flight": "HU7397",
+        "min_price": 880,
+        "member_price": null,
+        "plus_price": 1608
+      },
+      {
+        "flight": "JD5114",
+        "min_price": 830,
+        "member_price": null,
+        "plus_price": null
+      },
+      {
+        "flight": "Y87531",
+        "min_price": 950,
+        "member_price": null,
+        "plus_price": null
+      },
+      {
+        "flight": "HU7393",
+        "min_price": 880,
+        "member_price": null,
+        "plus_price": null
+      },
+      {
+        "flight": "JD5290",
+        "min_price": 830,
+        "member_price": null,
+        "plus_price": 984
+      },
+      {
+        "flight": "HU7395",
+        "min_price": 1070,
+        "member_price": null,
+        "plus_price": null
+      }
+    ],
+    "matched_count": 0
+  },
+  {
+    "fetch_time": "2026-04-10 18:00:03",
+    "route": "广州->杭州",
+    "date": "2026-04-29",
+    "total_flights": 4,
+    "prices": [
+      {
+        "flight": "JD5269",
+        "min_price": 840,
+        "member_price": null,
+        "plus_price": null
+      },
+      {
+        "flight": "HU7161",
+        "min_price": 740,
+        "member_price": null,
+        "plus_price": 1336
+      },
+      {
+        "flight": "HU7261",
+        "min_price": 920,
+        "member_price": null,
+        "plus_price": null
+      },
+      {
+        "flight": "HU7361",
+        "min_price": 920,
+        "member_price": null,
+        "plus_price": null
+      }
+    ],
+    "matched_count": 0
+  },
+  {
+    "fetch_time": "2026-04-10 18:00:04",
     "route": "杭州->广州",
     "date": "2026-05-07",
     "total_flights": 4,

@@ -52,8 +52,8 @@ WATCH_ROUTES = [
 # 目标价格：任何航班出现该价格即通知（包括普通价和会员价）
 TARGET_PRICE = 199
 
-# 轮询间隔（秒），每 60 秒查询一次
-POLL_INTERVAL = 60
+# 轮询间隔（秒），每 3 分钟查询一次
+POLL_INTERVAL = 180
 
 # 乘客信息
 PASSENGER = "ADT:1,CNN:1,INF:1"
@@ -64,29 +64,33 @@ PASSENGER = "ADT:1,CNN:1,INF:1"
 API_URL = "https://app.hnair.com/ticket/lfs/airLowFareSearch"
 API_PARAMS = {
     "token": "4c5b7edca9e112636be421220f763d89_c5af640af880d5319235e616a254a857",
-    "hnairSign": "635CAB00FBE71081B375B28A43DD52871EF161AB",
+    "hnairSign": "A0A27700D664AB7678580BF253BEA5F5E305C310",
 }
 
 API_HEADERS = {
     "Host": "app.hnair.com",
     "Cookie": (
-        "ekingCode=Slp1TmliaDAwNUxYTHh2Y1PVpr88kjM2WYO2X+hy/pj8nOK1yQyhFvU7ffystTu3"
-        "gGkwCkSfa99ElwWOlYP6Q1TM9u+SW7mAngINnya3edRLOdDpEXc3Lu7g8Qd5PU+K; "
+        "ekingCode=OGJnZDVUR1hvZ0xEQmVUORx0ayhqMbzjKtKCOhhShCWR/GXLuAYSwiu6ZzOhtoi2"
+        "8QhCXkjfGeT8KerFyA7tYi/CiyvFwIG93al3QwxTPjC9B+UBBzI6PEIW6RhomCkN; "
+        "8fe1e3514bafd525_gdp_cs1=gioenc-IT%5E113134140511543954111014; "
+        "8fe1e3514bafd525_gdp_gio_id=gioenc-IT%5E113134140511543954111014; "
+        "_ga=GA1.2.1074588932.1775648041; "
+        "gdp_user_id=gioenc-aad2g076%2C137a%2C55b0%2C9b8a%2C3021e4824e60; "
         "abymg_id=1_0380E01F6FCAC53D15BF14BCCC3BC5FCF89926564317096CC9EC260AC783EA08"
     ),
     "content-type": "application/json",
     "accept": "*/*",
     "appver": "10.13.2",
     "ekingcode": (
-        "RmVRRlZBZ3NJNlFpTlJNdtvlOTTrmTcfPMcO8RlujyBRoIORpr+xLmU2nU38atAg"
-        "f3K5yrJS7FT/hadocEzl5eaN36kewXjGhjkeQlZMieteDy2oQ3m2pXqn7gNwDaTF"
+        "b2NsNDhWODE0UFBxQXlIQlHfI9S7j/P7Mk8XEoz1efomGADtWayGDHgmN/bJvbC5"
+        "EkB1bwp+MFQuwDq0Sk0+99ynF/grhSvHLbKZNJGX6PLnqZZeu7KTKZEKGFKb0Bzr"
     ),
     "accept-language": "zh-Hans-CN;q=1.0",
     "hna-app": "APP",
     "appstamp": (
-        "qmNvyB989s3pR2WY4dqm05y4ukc/roMVdKorRaAsxUMz0124BaYP4dqiML5C4gcd"
-        "coWyCG+Ppm5RrP7+sr5M6WLnBMafrAbTq836a3HphTp/EV+ERYwai0IvxGDRCqI9"
-        "OL2QckLwDwtmy+0lyRmlqJRcHnSbYA3PMG6yee0HqJ8="
+        "F7gu8dhqNy/79l++DtOR6zGEZVDalVB+nzyGxd7haPgbgHVblSkcXPBoncxbJ9Ur"
+        "N4ABoLD6FjJAMNCns09LoyAh6vcoVYIgmc2+ZBQqRFwVPSESNvoWTiO+y0caDGSF"
+        "B9SSeb0Couh0c0FsLPmsrviqL3BlsP5mBCWICNSOSqU="
     ),
     "user-agent": "HNAApp/10.13.2 (com.hnair.mobile; build:25920; iOS 18.7.7) Alamofire/5.6.3",
     "hna-channel": "IP",
@@ -94,16 +98,16 @@ API_HEADERS = {
 
 API_COMMON = {
     "sver": "18.7.7",
-    "stime": "1775634079624",
+    "stime": "1775814967775",
     "gtcid": "edcca14e1e36d3b722c9907bb57fb284",
     "dname": "iPhone17,1",
     "abuild": "25920",
     "szone": "+0800",
-    "riskToken": "69d5fe07CXL6WZxETn65YrOPTq2l27hdfBFW1Qo2",
+    "riskToken": "69d8c01dyY0djDJ1hlYlTttfkvyiJcBpOreTP2x2",
     "slang": "zh_Hans_CN",
-    "slng": "113.3489922582933",
+    "slng": "113.34892218412041",
     "did": "072EE7006388496DB6F6979212BCC6E7",
-    "blackBox": "1775633253679IPHGRIgym7G61",
+    "blackBox": "1775814713784IPHdNjI5cXw9e",
     "atarget": "standard",
     "akey": "F57531F4F0C84D6196DA1C79DC94D1D9",
     "aname": "com.hnair.mobile",
@@ -111,7 +115,7 @@ API_COMMON = {
     "sname": "iOS",
     "aver": "10.13.2",
     "hver": "build-10.13.0.48186.aba23763e1.standard",
-    "slat": "23.10314324939742",
+    "slat": "23.103260914400977",
     "schannel": "IP",
     "captchaToken": "",
     "mchannel": "appStore",
